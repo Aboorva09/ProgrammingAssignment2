@@ -17,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
        setinv = setinv, getinv = getinv)
 }
 
-
+##if X is a square invertible matrix, then solve(X) returns its inverse.
 ## Solves, stores, and returns the inverse of the cached matrix,
 ## or only returns it if it already exists.
 
